@@ -6,6 +6,9 @@ const menuButton = document.querySelector('#menu');
 const mainButton = document.querySelector('#main');
 const contactButton = document.querySelector('#contact');
 const pageContent = document.querySelector("#pageContent");
+Main().postContent();
+
+
 mainButton.addEventListener('click', ()=>{
     pageContent.innerHTML = "";
     Main().postContent()})
