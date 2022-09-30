@@ -7,11 +7,14 @@ function MakeMenuItem(name,description,price){
         price,
     }
 }
-menuArray.push(MakeMenuItem('Agedashi Tofu',"A plate of delicious fried tofu, garnished with a soy and ginger sauce.", "$5.50"));
-menuArray.push(MakeMenuItem('Soba Noodles', "Cold noodles served with a rich and tangy vegan soba sauce.","$7.50"))
-menuArray.push(MakeMenuItem('Ramen',"A warm and filling bowl of soy-miso broth with all the fixin's.","$10.00"))
 menuArray.push(MakeMenuItem('Kimchi',"House-made vegan kimchi from fresh, local-grown Napa cabbage.","$4.50"))
+menuArray.push(MakeMenuItem('Agedashi Tofu',"A plate of delicious fried tofu, garnished with a soy and ginger sauce.", "$5.50"));
 menuArray.push(MakeMenuItem("Eggplant Izakaya","Skewers of charcoal-grilled Eggplant, marinated with a tart rice vinegar sauce.", "$5.50"))
+menuArray.push(MakeMenuItem('Soba Noodles', "Cold noodles served with a rich and tangy vegan soba sauce.","$7.50"))
+menuArray.push(MakeMenuItem("Onigiri","Three Onigiri, filled with seasoned tofu, umeboshi, and pickled veggies.","$7.50"))
+menuArray.push(MakeMenuItem('Tonkatsku Curry',"A crispy fried Seitan cutlet served on a bed of rice and pickled veggies, topped with a velvety Japanese curry sauce.", "$9.50"))
+
+menuArray.push(MakeMenuItem('Ramen',"A warm and filling bowl of soy-miso broth with all the fixin's.","$10.00"))
 menuArray.push(MakeMenuItem("Bibimbap","A filling rice and seasoned vegetable dish, served in a stone bowl, with a side of banchan.","$11.00"))
 
 
